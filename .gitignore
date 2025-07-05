@@ -1,0 +1,75 @@
+# Compiled kernel module files
+*.ko
+*.o
+*.mod.c
+*.mod.o
+*.symvers
+*.order
+*.markers
+
+# Module build artifacts
+Module.symvers
+modules.order
+.tmp_versions/
+.*.cmd
+*.mod
+
+# Kernel build artifacts
+.cache.mk
+.config.old
+.config
+.version
+
+# Editor and IDE files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+*.vim
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Log files
+*.log
+dmesg.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Core dumps
+core
+core.*
+
+# Distribution packages
+*.tar.gz
+*.tgz
+*.zip
+*.deb
+*.rpm
+
+# Build directories
+build/
+dist/
+
+# Documentation generated files
+docs/_build/
+*.pdf
+*.html
+
+# Test artifacts
+test_results/
+*.test
